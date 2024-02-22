@@ -1,10 +1,25 @@
-h1 {
-    color: purple;
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #c0b9d5;
+    background-color: #28212e;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2 {
+    color: #7f6298;
 }
 .foto{
-    width: 200px;
+    width: 150px;
     border-radius: 50%;
+    float: left;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .icon{
     width: 20px;
 }
