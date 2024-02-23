@@ -8,14 +8,15 @@ body{
     margin: 0;
 }
 
-h1,h2 {
+h1,h2,h3,a {
     color: #7f6298;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
     margin: 40px 0 0 30px; 
 }
 h2{
+    font-size: 30px;
     margin: 0 0 20px 30px; 
 }
 h3{
@@ -31,10 +32,11 @@ ul{
     border-top: 1px solid #c0b9d5;
 }
 .foto{
-    width: 150px;
+    width: 200px;
     border-radius: 50%;
     float: left;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px 0 0 20px;
 }
 .clearfix::after {
     content: "";
@@ -47,13 +49,22 @@ ul{
 #kontakt{
     border: 1px solid #c0b9d5;
     border-radius: 5px;
-    padding: 20px;
     margin: auto;
+    font-size: 30px;
+}
+#kontakt p{
+    padding-left: 250px;
 }
 #kontakt a{
     text-decoration: none;
 }
 #container{
-    width: 900px;
+    width: 50%;
     margin: 0 auto 100px;
+}
+a:hover{    
+    color: #c0b9d5;
+}
+a:visited{
+    color: #807799 
 }
