@@ -1,23 +1,23 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
     color: #c0b9d5;
     background-color: #28212e;
     font-family: 'Raleway', sans-serif;
-    margin: 0;
 }
-
 h1,h2,h3,a {
     color: #7f6298;
 }
 h1{
     font-size: 50px;
-    margin: 40px 0 0 30px; 
+    margin: 40px 0 0 120px; 
 }
 h2{
     font-size: 30px;
-    margin: 0 0 20px 30px; 
+    margin: 0 0 20px 120px; 
 }
 h3{
     margin:30px 0 5px 0;
@@ -26,17 +26,12 @@ h3{
 ul{
     list-style-type: circle;
 }
-#paticka{
-    margin: 0;
-    padding: 15px 0 15px 40px;
-    border-top: 1px solid #c0b9d5;
-}
 .foto{
-    width: 200px;
+    width: 150px;
     border-radius: 50%;
     float: left;
-    padding: 20px;
-    margin: 20px 0 0 20px;
+    border: 2px solid #c0b9d5;
+    margin-left: 120px ;
 }
 .clearfix::after {
     content: "";
@@ -44,27 +39,27 @@ ul{
     display: table;
   }
 .icon{
-    width: 20px;
+    width: 18px;
 }
 #kontakt{
-    border: 1px solid #c0b9d5;
-    border-radius: 5px;
     margin: auto;
-    font-size: 30px;
-}
-#kontakt p{
-    padding-left: 250px;
+    font-size: 25px;
 }
 #kontakt a{
     text-decoration: none;
+    margin: 20px;
 }
-#container{
-    width: 50%;
-    margin: 0 auto 100px;
+a:visited{
+    color: #807799 
 }
 a:hover{    
     color: #c0b9d5;
 }
-a:visited{
-    color: #807799 
+section{
+    margin:0 0 50px 120px;
+}
+#paticka{
+    margin: 0;
+    padding: 15px 0 15px 40px;
+    border-top: 1px solid #c0b9d5;
 }
