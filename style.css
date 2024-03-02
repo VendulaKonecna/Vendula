@@ -1,8 +1,14 @@
+html { 
+    box-sizing: border-box; 
+}
+*, ::after, ::before { 
+    box-sizing: inherit; 
+}
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
 body{
     color: #c0b9d5;
     background-color: #28212e;
@@ -12,21 +18,23 @@ h1,h2,h3,a {
     color: #7f6298;
 }
 h1{
-    font-size: 50px;
-    padding-top: 50px; 
+    font-size: 50px; 
 }
 h2{
     font-size: 30px; 
 }
 h3{
-    margin:30px 0 5px 0;
-    
+    margin:30px 0 5px 0;   
 }
 ul{
     list-style-type: circle;
 }
+.hlavni{
+    width: 450px;
+    margin: 100px auto;
+}
 .foto{
-    width: 150px;
+    width: 130px;
     border-radius: 50%;
     float: left;
     border: 2px solid #c0b9d5;
@@ -35,26 +43,23 @@ ul{
     content: "";
     clear: both;
     display: table;
-  }
+}
 .icon{
-    width: 18px;
+    width: 20px;
 }
 #kontakt{
-    font-size: 25px;
-    padding:0 10% 50px 10%;
+    font-size: 20px;
+    margin: 50px 0;
 }
 #kontakt a{
     text-decoration: none;
-    margin: 20px;
+    margin-left: 20px;
 }
 a:visited{
     color: #807799 
 }
 a:hover{    
     color: #c0b9d5;
-}
-header, section{
-    padding:0 10% 50px 10%;
 }
 #paticka{
     padding: 20px;
