@@ -13,6 +13,7 @@ body{
     color: #c0b9d5;
     background-color: #28212e;
     font-family: 'Raleway', sans-serif;
+    line-height: 1.2;
 }
 h1,h2,h3,a {
     color: #7f6298;
@@ -27,7 +28,10 @@ h3{
     margin:30px 0 5px 0;   
 }
 ul{
-    list-style-type: circle;
+    list-style-type: none;
+}
+li{
+    padding: 5px;
 }
 .hlavni{
     width: 450px;
@@ -66,4 +70,8 @@ a:hover{
     border-top: 1px solid #c0b9d5;
     font-style: italic;
     text-align: right;
+}
+.bold{
+    font-weight: 600;
+    letter-spacing: 1px;
 }
